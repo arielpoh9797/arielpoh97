@@ -39,6 +39,11 @@ h3 {
   font-family: 'Lato', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Verdana', 'sans-serif';;
 }
 
+h6 {
+  margin: auto;
+  padding : 0;
+}
+
 nav {
 height: 20vh;
 width: 100%;
@@ -151,6 +156,16 @@ background-color: #4CAF50;
 
 /* Image */
 
+.topbar {
+  background-color:rgb(192, 192, 192);
+}
+
+h5{
+  font-size:13px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
 img {
   margin: 10px;
   padding: 20px;
@@ -158,10 +173,20 @@ img {
   width:250px;
 }
 
-.bordered {
+.gbordered {
   border-style: solid;
   border-width: 3px;
   border-color: rgb(0, 255, 0);
+}
+
+.rbordered {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(255, 2, 2);
+}
+
+.para {
+  text-align: justify;
 }
 
 /* Footer */
